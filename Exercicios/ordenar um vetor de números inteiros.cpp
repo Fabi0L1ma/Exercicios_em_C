@@ -1,5 +1,5 @@
-// Faça um programa para ordenar um vetor com 100 números inteiros.
-// Imprima o vetor antes e após a ordenação.
+// FaÃ§a um programa para ordenar um vetor com 100 nÃºmeros inteiros.
+// Imprima o vetor antes e apÃ³s a ordenaÃ§Ã£o.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,14 +26,13 @@ int main(){
 	for(i = 0; i < 100; i++){
 		for(j = 0; j < 100; j++){
 			if(vet[i] < vet[j]){
-			aux = vet[i];
-			vet[i] = vet[j];
-			vet[j] = aux;
+				aux = vet[i];
+				vet[i] = vet[j];
+				vet[j] = aux;
+			}
 		}
-			
-		}
-
 	}
+	
 	
 	printf("Vetor ORDENADO: ");
 	for(j = 0; j < 100; j++){
