@@ -11,7 +11,7 @@ void hip(float c1, float c2, float *h){
 	
 	x = c1*c1;
 	y = c2*c2;
-   *h = sqrt(x+y);
+       *h = sqrt(x+y);
 }
 
 int main(){
